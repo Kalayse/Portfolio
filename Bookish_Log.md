@@ -10,3 +10,6 @@ When uploading the S to *BigQuery*, I had to find and replace all instances of "
 
 ## Datasets Used:
 [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
+
+## Additional Information:
+[Goodreads Developer Terms of Service](https://www.goodreads.com/api/terms). 
