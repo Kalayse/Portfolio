@@ -7,7 +7,7 @@ guiding principals from Google's Data Analytics Professional Certification on Co
 interest and curiousity in the topic.
 
 ## Ask Phase:
-- What topic are you exploring? `#75975e* The topic that I'm exploring is related to my interests as a user of Goodreads and as a bookish person. I want to take
+- What topic are you exploring? `The topic that I'm exploring is related to my interests as a user of Goodreads and as a bookish person. I want to take
 datasets and explore book ratings, book genres, book titles, and sales and see how they relate to each other.`
 - What is the problem you're trying to solve?
 - What metrics will you use to measure your data to achieve your objectives? Who are your stakeholders?
