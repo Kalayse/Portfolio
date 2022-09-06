@@ -12,8 +12,7 @@ Uploaded Amazon Top 50 Bestselling Books 2009-2019 by Sooter Saalu into *BigQuer
 
 Potential courses of action:
 - Word cloud visualization for titles, genres, or reviews.
-- Datasets outside of Goodreads. It appears that the Amazon Top 50 compiles the information from Goodreads based on Saalu's notebook in Kaggle.
-
+- Datasets outside of Goodreads. It appears that the Amazon Top 50 compiles the information from Goodreads based on Saalu's notebook in Kaggle. Other places to consider are [Tableau](https://public.tableau.com/app/discover), [Medium](https://medium.com/search?q=books), and Kaggle.
 
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
