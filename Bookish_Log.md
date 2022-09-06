@@ -10,9 +10,12 @@ When uploading the Goodreads-books by Soumik dataset to *BigQuery*, I had to fin
 ## 6-Sept-5
 Uploaded Amazon Top 50 Bestselling Books 2009-2019 by Sooter Saalu into *BigQuery*. Currently, finding relative datasets from Kaggle to explore using SQL. My intent is to compare multiple Bookish datasets. I am considering exploring other datasets that are outside of Goodreads, but at this time, I continue using Goodreads datasets as the main source of information. 
 
-Potential courses of action:
+Potential courses of action and information to research:
 - Word cloud visualization for titles, genres, or reviews.
 - Datasets outside of Goodreads. It appears that the Amazon Top 50 compiles the information from Goodreads based on Saalu's notebook in Kaggle. Other places to consider are [Tableau](https://public.tableau.com/app/discover), [Medium](https://medium.com/search?q=books), and Kaggle.
+- There are datasets that contain information from libraries on which books are loaned. This might be useful in comparing the loans to Goodreads reviews. View possible datasets [here](https://data.world/datasets/books).
+- Good [visualizations](https://ourworldindata.org/books) for the history of books over the last century.
+- [ISBNdb](https://isbndb.com/) appears to have a free 7 day trial, but they will have the book list price. This might be interesting to compare with book reviews. Unsure of how to cite/access of the information. Research further.
 
 Accessing Medium to browse, I found that the website focuses mostly on case studies and presents them in a blog post way. The few I accessed seemed to focus mostly on books and reading as a hobby without physical data that I would need. I accessed a "Member-Only" page. Medium only allows 3 member only pages per month before you have to opt in for a subscription. 
 
