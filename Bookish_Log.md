@@ -22,7 +22,7 @@ Accessing Medium to browse, I found that the website focuses mostly on case stud
 
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
-- [Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
+- [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
 
 ## Additional Information:
 [Goodreads Developer Terms of Service](https://www.goodreads.com/api/terms). 
