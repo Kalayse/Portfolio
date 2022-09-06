@@ -14,7 +14,7 @@ Potential courses of action:
 - Word cloud visualization for titles, genres, or reviews.
 - Datasets outside of Goodreads. It appears that the Amazon Top 50 compiles the information from Goodreads based on Saalu's notebook in Kaggle. Other places to consider are [Tableau](https://public.tableau.com/app/discover), [Medium](https://medium.com/search?q=books), and Kaggle.
 
-Medium:
+*Medium*:
 I accessed Medium to browse. The website focuses mostly on case studies and presents them in a blog post way. The few I accessed seemed to focus mostly on books and reading as a hobby without physical data that I would need. I accessed a "Member-Only" page. Medium only allows 3 member only pages per month before you have to opt in for a subscription. I read through Kris Gage's [8 Things I Learned Reading 50 Books A Year for 7 Years](https://medium.com/@krisgage/8-things-i-learned-reading-50-books-a-year-for-7-years-cb11c4acffb1).
 
 ## Datasets Used:
