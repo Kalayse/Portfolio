@@ -8,7 +8,11 @@ When uploading the Goodreads-books by Soumik dataset to *BigQuery*, I had to fin
 *BigQuery* was receiving an error and failed to upload with the double quote.
 
 ## 6-Sept-5
-Uploaded Amazon Top 50 Bestselling Books 2009-2019 by Sooter Saalu into *BigQuery*. Currently, finding relative datasets from Kaggle to explore using SQL. My intent is to compare multiple Bookish datasets. I am considering exploring other datasets that are outside of Goodreads, but at this time, I continue using Goodreads datasets as the main source of information.
+Uploaded Amazon Top 50 Bestselling Books 2009-2019 by Sooter Saalu into *BigQuery*. Currently, finding relative datasets from Kaggle to explore using SQL. My intent is to compare multiple Bookish datasets. I am considering exploring other datasets that are outside of Goodreads, but at this time, I continue using Goodreads datasets as the main source of information. 
+
+Potential courses of action:
+- Word cloud visualization for titles, genres, or reviews.
+- Datasets outside of Goodreads. It appears that the Amazon Top 50 compiles the information from Goodreads based on Saalu's notebook in Kaggle.
 
 
 ## Datasets Used:
