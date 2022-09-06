@@ -9,8 +9,8 @@ When uploading the S to *BigQuery*, I had to find and replace all instances of "
 
 
 ## Datasets Used:
-[Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
-[Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
+- [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
+- [Amazon Top 50 Bestselling Books 2009-2019](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
 
 ## Additional Information:
 [Goodreads Developer Terms of Service](https://www.goodreads.com/api/terms). 
