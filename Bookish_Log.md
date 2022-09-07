@@ -1,7 +1,7 @@
 # Chronological Notes
 
 ## Purpose:
-Exploring what I have learned so far in [Coursera's Google Data Analytics Professional Certificate](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjo9ZyPyv75AhVeGzQIHaScBUIQFnoECBUQAQ&url=https%3A%2F%2Fwww.coursera.org%2Fprofessional-certificates%2Fgoogle-data-analytics&usg=AOvVaw2XvP900KPIKu1611eqZ7QH). This log should serve as a compilation of all the actions, research, and progess on my final project with Coursera. The topic is Bookish. Please visit -ReadMe link, to be inserted later- for more details.
+Exploring what I have learned so far in [Coursera's Google Data Analytics Professional Certificate](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjo9ZyPyv75AhVeGzQIHaScBUIQFnoECBUQAQ&url=https%3A%2F%2Fwww.coursera.org%2Fprofessional-certificates%2Fgoogle-data-analytics&usg=AOvVaw2XvP900KPIKu1611eqZ7QH). This log should serve as a compilation of all the actions, research, and progess on my final project with Coursera. All the code I used will be available for both R and SQL witin my portfolio. Please visit -ReadMe link, to be inserted later- for more details.
 
 ## 5-Sept-22 
 When uploading the Goodreads-books by Soumik dataset to *BigQuery*, I had to find and replace all instances of " to a single quote '. 
@@ -31,7 +31,11 @@ Moving forward with these three datasets. I will be reviewing content. This will
 
 In *BigQuery*, I have started cleaning and manipulating data starting with Jannesar's dataset. My goal for today is to configure all the raw data into tables that will prove more useful in my analysis. I think I will have to put a limit on the user ratings for the tables in order to limit the processing time as well as the amount of data I'm working with. I could remove everything that has no review and no rating. Alternatively, I could come up with a basic metric to say (this type of book) yields low reviews and ratings.
 
-Utilitzed *BigQuery* and *RStudio* to obtain summary statistics on Jannesar's dataset for the first 100k entries. Results are as follows for CountOfReviews:`'Min_ReviewCT is 0, Max_ReviewCt is 94850, AVG_ReviewCT is 147.79`. Using the ntile( ) function, I was able to obtain the percentile for Ratings and Ordered by the CountsOfReviews. Visualized results in *RStudio*. 
+Utilitzed *BigQuery* and *RStudio* to obtain summary statistics on Jannesar's dataset for the first 100k entries. Results are as follows for CountOfReviews:`'Min_ReviewCT is 0, Max_ReviewCt is 94850, AVG_ReviewCT is 147.79`. Using the ntile( ) function, I was able to obtain the percentile for Ratings and Ordered by the CountsOfReviews: `SELECT
+Name,CountsOfReview, Rating, ntile(100) OVER (PARTITION BY CAST(Rating AS int64) ORDER BY CountsOfReview) AS Percentile,
+FROM
+Goodreads.FilteredGR_BJ_thru100k
+#Typecasted Rating from Float to Int. Table is showing percentile in relation to the overall rating and number or reviews.`. Visualized results in *RStudio*. 
 
 
 ## Datasets Used:
