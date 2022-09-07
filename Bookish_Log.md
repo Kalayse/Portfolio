@@ -27,6 +27,8 @@ Accessing Medium to browse, I found that the website focuses mostly on case stud
 ## 7-Sept-22
 Today, I decided to update part of another Goodreads' dataset by Bahram Jannesar et al., which includes multiple .csv files. Each file has more than 50k books and there are .csv files for user ratings. When I reviewed the user ratings, they were strings that seemed to be an array of the same content, which is likely the string response for a star level. For example, 4 stars could mean 'Really Like It'. I will not be using this part of the dataset in my analysis.
 
+Moving forward with these three datasets. I will be reviewing content. This will help me see what needs to be cleaned, combined, and what needs more context in order to avoid potential gaps in my analysis. At this time, I feel like a major gap that will force me to pivot would be related to list price for each book. I did consider researching and building my own list_price column. If I decide on this course of action, I will only do it for a subset of the data.
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
