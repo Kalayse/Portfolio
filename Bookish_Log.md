@@ -31,6 +31,9 @@ Moving forward with these three datasets. I will be reviewing content. This will
 
 In *BigQuery*, I have started cleaning and manipulating data starting with Jannesar's dataset. My goal for today is to configure all the raw data into tables that will prove more useful in my analysis. I think I will have to put a limit on the user ratings for the tables in order to limit the processing time as well as the amount of data I'm working with. I could remove everything that has no review and no rating. Alternatively, I could come up with a basic metric to say (this type of book) yields low reviews and ratings.
 
+Utilitzed *BigQuery* and *RStudio* to obtain summary statistics on Jannesar's dataset for the first 100k entries. Results are as follows for CountOfReviews:`'Min_ReviewCT is 0, Max_ReviewCt is 94850, AVG_ReviewCT is 147.79`. Using the ntile( ) function, I was able to obtain the percentile for Ratings and Ordered by the CountsOfReviews. Visualized results in *RStudio*. 
+
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
