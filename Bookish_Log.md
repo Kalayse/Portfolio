@@ -29,6 +29,8 @@ Today, I decided to update part of another Goodreads' dataset by Bahram Jannesar
 
 Moving forward with these three datasets. I will be reviewing content. This will help me see what needs to be cleaned, combined, and what needs more context in order to avoid potential gaps in my analysis. At this time, I feel like a major gap that will force me to pivot would be related to list price for each book. I did consider researching and building my own list_price column. If I decide on this course of action, I will only do it for a subset of the data.
 
+In *BigQuery*, I have started cleaning and manipulating data starting with Jannesar's dataset. My goal for today is to configure all the raw data into tables that will prove more useful in my analysis. I think I will have to put a limit on the user ratings for the tables in order to limit the processing time as well as the amount of data I'm working with. I could remove everything that has no review and no rating. Alternatively, I could come up with a basic metric to say (this type of book) yields low reviews and ratings.
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
