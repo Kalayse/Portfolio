@@ -37,6 +37,11 @@ FROM
 Goodreads.FilteredGR_BJ_thru100k
 #Typecasted Rating from Float to Int. Table is showing percentile in relation to the overall rating and number or reviews.`. Visualized results in *RStudio*. 
 
+## 8-Sept-22
+**To do list:**
+- Obtain a subset of books through a random generation script - currently thinking 5 books. From Goodreads' website obtain more about review information. Consider manually logging the breakdown of reviews and the timeframe of each review.
+- Focus mostly on Jannesar's dataset in order to focus in on the questions I'm trying to answer.
+
 
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
