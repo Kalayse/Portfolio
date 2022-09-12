@@ -42,6 +42,10 @@ Goodreads.FilteredGR_BJ_thru100k
 - Obtain a subset of books through a random generation script - currently thinking 5 books. From Goodreads' website obtain more about review information. Consider manually logging the breakdown of reviews and the timeframe of each review.
 - Focus mostly on Jannesar's dataset in order to focus in on the questions I'm trying to answer.
 
+## 12-Sept-22
+I ended my session on 8-Sept-22 by using INNER JOIN to combine a Goodreads' dataset with an Amazon dataset. The dataset only was able to INNER JOIN matching values in both tables and therefor all values were not account for. Since I joined on strings, the string had to have been an exact match. Additionally, I only joined a small segment of the Goodreads' dataset, which was up to 100k books. This new data set includes book titles, page count, publishing year, Goodreads' rating, Goodreads' reviews, Amazon Rating, and Amazon Reviews. With 22 distinct books, I will be manually adding the OriginalPrice to the dataframe.  
+
+When adding the cost to the dataframe, the following issues were encountered: unable to determine original price of the book in the print/sale year, the current price of the book is based on market demand, and there's lots of reprints of books (such as Dante's Inferno). The current cost of the book is my 'best guess' at what a standard book from that publishing year would cost. If there was a range of prices (as you would find with eBay), I averaged the min/max.
 
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
