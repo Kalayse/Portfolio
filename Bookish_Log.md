@@ -47,6 +47,9 @@ I ended my session on 8-Sept-22 by using INNER JOIN to combine a Goodreads' data
 
 When adding the cost to the dataframe, the following issues were encountered: unable to determine original price of the book in the print/sale year, the current price of the book is based on market demand, and there's lots of reprints of books (such as Dante's Inferno). The current cost of the book is my 'best guess' at what a standard book from that publishing year would cost. If there was a range of prices (as you would find with eBay), I averaged the min/max.
 
+**To do list:**
+-Explore potential relationship between Amazon review count, Goodreads' review count, and genre for the combined dataset.
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
