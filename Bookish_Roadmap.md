@@ -19,7 +19,7 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 - How is your data organized? 
 > The data I'm using is organized into .CSV files which has been imported into *BigQuery* and *RStudio* for exploration.`
 - Are there issues with bias or credibility in this data? Does your data ROCCC? 
-> Reminder: ROCCC is reliable, original, comprehensive, current, and cited. The data that I'm using from Kaggle would ROCCC per their [page that discusses](https://www.kaggle.com/docs/datasets) datasets. There is an issue with it not being original, however, since I obtained it through a third party and not directly from Goodreads'. Additionally, the data is only as current as December 2020, when Goodreads' changed their API policy.
+> Reminder: ROCCC is reliable, original, comprehensive, current, and cited. The data that I'm using from Kaggle would ROCCC per their [page that discusses](https://www.kaggle.com/docs/datasets) datasets. There is an issue with it not being original, however, since I obtained it through a third party and not directly from Goodreads'. Additionally, the data is only as current as December 2020, when Goodreads' changed their [API policy](https://www.goodreads.com/api/terms).
 - How are you addressing licensing, privacy, security, and accessibility?
 > I am ensureing that the raw_data that I have used is linked and referenced accordingly. Kaggle's website encourages dataset publishers to make their dataset open, accessible, and non-proprietary if they are listed publicly.
 - How did you verify the data's integrity?
