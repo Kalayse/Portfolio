@@ -21,8 +21,11 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 - Are there issues with bias or credibility in this data? Does your data ROCCC? 
 > Reminder: ROCCC is reliable, original, comprehensive, current, and cited. The data that I'm using from Kaggle would ROCCC per their [page that discusses](https://www.kaggle.com/docs/datasets) datasets. There is an issue with it not being original, however, since I obtained it through a third party and not directly from Goodreads'. Additionally, the data is only as current as December 2020, when Goodreads' changed their API policy.
 - How are you addressing licensing, privacy, security, and accessibility?
+> I am ensureing that the raw_data that I have used is linked and referenced accordingly. Kaggle's website encourages dataset publishers to make their dataset open, accessible, and non-proprietary if they are listed publicly.
 - How did you verify the data's integrity?
+> I verified the data's intregtiy by cross referencing a random sample against the Goodreads' site. There is some bias in the data, because the analysis I am doing is only based on the review attributes of Goodreads'. If a bookish person uses another method of tracking and reviewing, this information would not be available as part of my analysis. Additionally, other apps with reviews are less accessible in an open source environment. When I attempted to cross reference some book attribute information with ISBN, there was a pay wall I hit and I am unable to utilize their serves as part of my open source analysis.
 - Are there any problems in your data?
+> Some of the book information is formatted into strings such as the book title and author. The book title can have many variations that includes editions, books within series, etc. The authors section may or may not contain collaborators, co-authors, and it may use terms like 'et al' or 'and one other'. Additionally, for page count, some books have a variety of editions with varying page counts depending on if the book contains an interview, a sneakpeak at another book, a prologue, etc.
 
 ## Process Phase:
 - What tools are you choosing and why?
