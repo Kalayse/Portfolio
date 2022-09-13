@@ -50,6 +50,11 @@ When adding the cost to the dataframe, the following issues were encountered: un
 **To do list:**
 -Explore potential relationship between Amazon review count, Goodreads' review count, and genre for the combined dataset.
 
+## 13-Sept-22
+Visualized the dataframe from the Inner Joins on Goodreads' and Amazon dataset. The dataset is a subset of all the Amazon Best Sellers from 2009-2019 (referred to as Amazon2009_2019Books in RStudio). I was able to manually add all genres and current cost of the 22 distinct books. Once I ensured the data was clean, I imported that dataset into RStudio to visualize the data with ggplot2. Using ggplot2, I was able to visualize the attributes Rating, Sample Counts, and Genres into a bar graph. I then added labels to make the [viz](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FBar_AZGR.png) more accessible.
+
+I decided to explore the complete Amazon2009_2019Books to create more comprehensive visualizations that include more data. I will be using geom_smooth and geom_point along with mapping aesthetics.
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
