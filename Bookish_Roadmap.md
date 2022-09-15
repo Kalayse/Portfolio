@@ -1,7 +1,7 @@
 # Case Study - Bookish
 
 ## Introduction:
-This section is meant to be used as my self guided exploration for my Bookish Case Study. The intent with this document is to outline the data analysis process so that I might better stay on task, asking the right questions, and exploring each section fully. Additionally, this section will contain some of the guiding principals from Google's Data Analytics Professional Certification on Coursera. The information contained within this case study is purely based on my interest and curiousity in the topic.
+This section is meant to be used as my self guided exploration for my Bookish Case Study. The intent with this document is to outline the data analysis process so that I might better stay on task, asking the right questions, and exploring each section fully. Additionally, this section will contain some of the guiding principals from Google's Data Analytics Professional Certification on Coursera. The information contained within this case study is purely based on my interest and curiousity in the topic. There has been no financial impact when picking this topic for exploration.
 
 ## Ask Phase:
 - What topic are you exploring? 
@@ -29,13 +29,13 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 
 ## Process Phase:
 - What tools are you choosing and why?
-> The tools that I'm using will include SQL in BigQuery, R in RStudio, Kaggle for datasets, and some minor use of Spreadsheets with Google Sheets. I'm utilizing these tools, because they have been the focal point of the Google Data Analytics Professional Certification on Coursera. BigQuery will be used for various cleaning and manpulating of the data, and RStudio will be used for more data manipulation and data visualizations.
+> The tools that I'm using will include SQL in BigQuery, R in RStudio, Kaggle for datasets, Tableau for Data Visualizations, and some minor use of Spreadsheets with Google Sheets. I'm utilizing these tools, because they have been the focal point of the Google Data Analytics Professional Certification on Coursera. BigQuery will be used for various cleaning and manpulating of the data, and RStudio will be used for more data manipulation and data visualizations.
 - Have you ensured the data's integrity?
 > I have reviewed and analyzed the data for bias while ensuring that I am not misinterpreting or misrepresenting the data as I transform it. Additionally, I am utilitzing datasets that are cited and open following data ethics practices of providing transparency.
 - What steps have you taken to ensure that your data is clean?
 > The cleaning process began in BigQuery. Using the schema section, I reviewed the field_name and data_type for the applicable datasets. This helped me identify reference columns, if I needed to use cleaning functions (such as CAST(), LENGTH(), TRIM(), MIN(), MAX(), COUNT(), IS NULL, DISTINCT(), etc.), and data manipulating actions (JOINS, ALTER TABLE, UPDATE, RENAME COLUMN) to generate a data.table that would be useful in analysis.
 - How can you verify that your data is clean and ready to analyze?
->
+> When validating my data, I did find that I needed additional data to round out one of the datasets. I manually set out to add a column for current price and genre for a subset of the books I was reviewing. The data is uniformly formatted and is capatible with the tools I am using for data analysis. Prior to my analysis the data seems to support my thoughts that the higher review count tends to lead to a better (or at least more accurate) rating. Additionally, there seems to be a correlation between book genre and number of reviews on Amazon.
 
 ## Analyze Phase:
 - How should you organize your data to perform an analysis on it?
