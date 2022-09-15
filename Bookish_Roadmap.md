@@ -29,9 +29,13 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 
 ## Process Phase:
 - What tools are you choosing and why?
+> The tools that I'm using will include SQL in BigQuery, R in RStudio, Kaggle for datasets, and some minor use of Spreadsheets with Google Sheets. I'm utilizing these tools, because they have been the focal point of the Google Data Analytics Professional Certification on Coursera. BigQuery will be used for various cleaning and manpulating of the data, and RStudio will be used for more data manipulation and data visualizations.
 - Have you ensured the data's integrity?
+> I have reviewed and analyzed the data for bias while ensuring that I am not misinterpreting or misrepresenting the data as I transform it. Additionally, I am utilitzing datasets that are cited and open following data ethics practices of providing transparency.
 - What steps have you taken to ensure that your data is clean?
+> The cleaning process began in BigQuery. Using the schema section, I reviewed the field_name and data_type for the applicable datasets. This helped me identify reference columns, if I needed to use cleaning functions (such as CAST(), LENGTH(), TRIM(), MIN(), MAX(), COUNT(), IS NULL, DISTINCT(), etc.), and data manipulating actions (JOINS, ALTER TABLE, UPDATE, RENAME COLUMN) to generate a data.table that would be useful in analysis.
 - How can you verify that your data is clean and ready to analyze?
+>
 
 ## Analyze Phase:
 - How should you organize your data to perform an analysis on it?
