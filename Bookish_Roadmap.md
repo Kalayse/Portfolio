@@ -39,9 +39,13 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 
 ## Analyze Phase:
 - How should you organize your data to perform an analysis on it?
+> Initially, I organized data based on the original datasource (Amazon or Goodreads). I then went on to ensure that naming conventions were utilized when I went into manipulating the data to form new tables, save variables, and visualize the data in a meaningful way.
 - Has your data been properly formatted?
+> There was some struggles, because the original source for the Amazon dataset utilized spaces in column_names, which made the columns difficult to reference. Additionally, it is unavoidable when discussing book_titles to *not* have strings, because the strings give meaningful information to the data whereas the ISBN would be more accurate - it would be difficult to determine much in terms of context. Additionally, since there was a pay wall for access to the ISBNdb I found myself relaying more on the publicly accessible information and less on what the ISBNdb could offer me.
 - What surprises did you discover in your data?
+> I was surprised to find out that the most reviewed books by a more comprehesive genre breakdown, which I manually conducted on a sample size, was geared towards Children's books being the most commonly reviewed for Amazon's Best Sellers from 2009-2019.
 - What trends or relationships did you find in the data?
+> When looking deeper at the Amazon Best Sellers, each year did have 50 total books listed. Additionally, reported rating only dipped below 3.5 for the User_Rating 1 out of 550 total instances (3.3 rating in 2012 for "The Casual Vacancy" by JK Rowling). This means to me, that in order for something to be considered a bestseller, that the User_Rating would be at least 3.3. 
 
 ## Share Phase:
 - What story does your data tell?
