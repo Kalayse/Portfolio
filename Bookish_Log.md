@@ -55,6 +55,9 @@ Visualized the dataframe from the Inner Joins on Goodreads' and Amazon dataset. 
 
 I decided to explore the complete Amazon2009_2019Books to create more comprehensive visualizations that include more data. I will be using geom_smooth and geom_point along with mapping aesthetics.
 
+## 19-Sept-22
+Today time was spent plotting continuous variables using ggplot2 with the Amazon dataset. The visual will display the bestselling books from 2009 to 2019 including the number of reviews, the average rating for a particular book, and the price. The visual then goes on to parse out the Fiction and NonFiction books. The count of fiction books within this dataset is 240 and the amount of nonfiction books is 310. Overall, it is easy to conclude that Nonfiction books typically have less reviews, but the average rating seldom dips below 4.0. Additionally, the amount Total_Reviews for A_Book that exceeds 25,000 for the Fiction genre is frequent. Whereas this only occurs 8 times for Nonfiction books. Considering that nonfiction books account for 56% of the bestsellers they are reviewed at a lower frequency relative to bestselling fiction books. The visualization I am referencing can be found [here](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FFctGenre_AZ0919.1.png).
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
