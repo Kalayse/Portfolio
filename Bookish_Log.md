@@ -59,7 +59,24 @@ I decided to explore the complete Amazon2009_2019Books to create more comprehens
 Today time was spent plotting continuous variables using ggplot2 with the Amazon dataset. The visual will display the bestselling books from 2009 to 2019 including the number of reviews, the average rating for a particular book, and the price. The visual then goes on to parse out the Fiction and NonFiction books. The count of fiction books within this dataset is 240 and the amount of nonfiction books is 310. Overall, it is easy to conclude that Nonfiction books typically have less reviews, but the average rating seldom dips below 4.0. Additionally, the amount Total_Reviews for A_Book that exceeds 25,000 for the Fiction genre is frequent. Whereas this only occurs 8 times for Nonfiction books. Considering that nonfiction books account for 56% of the bestsellers they are reviewed at a lower frequency relative to bestselling fiction books.
 
 ## 20-Sept-22
-More time was spent today on cleaning up a visualization for the Amazon dataset. The original geom_jitter I started with is [here](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FVizs%2FYear_AZ0919.png) and I spent some time cleaning up, adding layers, and making the visualization more readable and accessible to viewers. The most recent version can be found [here](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FVizs%2FYear_AZ0919.4.png). I woudl like to further clean up the visualiztion by updating the legend and adding another annotation to the second lowest rating point in 2015. Additionally, I took the time to acquiante myself with pretty_break() function in the scales package and palette functions for continuous and discrete data.
+More time was spent today on cleaning up a visualization for the Amazon dataset. 
+
+The original geom_jitter I started:
+
+![image](https://user-images.githubusercontent.com/97118025/192117249-14ce247a-0720-460a-8591-ecedf782332b.png)
+
+I spent some time cleaning up, adding layers, and making the visualization more readable and accessible to viewers. 
+
+The most recent version:
+
+![image](https://user-images.githubusercontent.com/97118025/192117511-98fc5eb7-0e61-4d16-9fdd-20bc4b262e95.png)
+
+I would like to further clean up the visualiztion by updating the legend and adding another annotation to the second lowest rating point in 2015. Additionally, I took the time to acquiante myself with pretty_break() function in the scales package and palette functions for continuous and discrete data.
+
+Processing a facet_wrap() on the attribute genre and adding a trend line, we can easily visualize the difference in the number of reviews that nonfiction receives versus fiction books.
+
+![image](https://user-images.githubusercontent.com/97118025/192117639-0fa9d356-bcac-4370-b715-ed381cd828ac.png)
+
 
 ## 24-Sept-22
 Utilizing Tableau, I created a word cloud for the Top 15 best selling authors (from 2009-2019) according to the Amazon dataset. Included in the word cloud is a filter by genre, average user rating, book title, and the total number of reviews. The viz can be viewed [here](https://public.tableau.com/views/Portfolio_AmazonBooks_20092019/Top15_Author_Cloud?:language=en-US&:display_count=n&:origin=viz_share_link).
