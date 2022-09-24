@@ -7,7 +7,7 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 - What topic are you exploring? 
 > The topic that I'm exploring is related to my interests as a user of Goodreads and as a bookish person. I want to take datasets and explore book ratings, book genres, book titles, and sales and see how they relate to each other.
 - What is the problem you're trying to solve? 
-> My goal is to see if there's a meaningful relationship between the user reviews (count and rating) and the book atrributes (such as page count and name). I want to visualize the titles and keywords as they compare to review count, discover if there's a meaningful relationship between the book type and the review count, and see if there's an impact of a book that may seem trendy even though it is undesirable in some way.
+> My goal is to see if there's a meaningful relationship between the user reviews (count and rating) and the book attributes (such as page count and name). I want to visualize the titles and keywords as they compare to review count, discover if there's a meaningful relationship between the book type and the review count, and see if there's an impact of a book that may seem trendy even though it is undesirable in some way.
 - What metrics will you use to measure your data to achieve your objectives? Who are your stakeholders? 
 > The metrics I will be using will include various summary statistics such as min, avg, max, count, and sd. My stakeholders are bookish people from the average consumer to the bookworm with the potential to have stakeholders such as authors, publishers, retail sites, and book reviewing platforms.
 - Who is your audience for this analysis and how does this affect your analysis process and presentation? 
@@ -49,9 +49,11 @@ This section is meant to be used as my self guided exploration for my Bookish Ca
 
 ## Share Phase:
 - What story does your data tell?
+> Based on the data, when Amazon reviews tend to favor Fiction genre books. Within that, they tend to heavily favor Children's books for a high rating. I found this surprising, because that means that the person reviewing the book is likely not the intended audience for the book, but the parent (or other purchaser). Within the Top 15 Amazon best selling books from 2009-2019, there are very prominent authors that will likely sell books based on their name alone such as John Green, Michelle Obama, and Suzanne Collins. I would be interested to see the relationship between movie releases and book sales. Briefly, we can see that The Hunger Games (Book 1) by Suzanne Collins was a best seller in 2010, 2011, and 2012 for Amazon and the movie, The Hunger Games, was released in 2012. 
 - How do your findings relate to your original question?
-- Who is your audience? What is the best way to communicate with them?
-- Is your presentation accessible to your audience? How?
+> I was not entirely able to solve my original question when discussing the number of pages and how it relates to book reviews. This information is difficult to determine, because there's a vast difference within a same title based for page count. Some books that share the same name may have bonus chapters, author interviews, and prologues that aren't available in all books of the same title. In order to better answer this question, I would have had to access ISBNdb, which has a pay wall, and doesn't fit into the scope of the portfolio. 
+- Is your findings accessible to your audience? How?
+> Within my portfolio the following can be accessed: the visualization .PNGs from RStudio, links to the original datasets, a Tableau link to the word cloud, and the accompanying code I wrote.
 
 ## Act Phase:
 This phase is added to complete the data analysis process. There will be no action for the Act Phase on my behalf.
