@@ -61,6 +61,9 @@ Today time was spent plotting continuous variables using ggplot2 with the Amazon
 ## 20-Sept-22
 More time was spent today on cleaning up a visualization for the Amazon dataset. The original geom_jitter I started with is [here](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FVizs%2FYear_AZ0919.png) and I spent some time cleaning up, adding layers, and making the visualization more readable and accessible to viewers. The most recent version can be found [here](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FVizs%2FYear_AZ0919.4.png). I woudl like to further clean up the visualiztion by updating the legend and adding another annotation to the second lowest rating point in 2015. Additionally, I took the time to acquiante myself with pretty_break() function in the scales package and palette functions for continuous and discrete data.
 
+## 24-Sept-22
+Utilizing Tableau, I created a word cloud for the Top 15 best selling authors (from 2009-2019) according to the Amazon dataset. Included in the word cloud is a filter by genre, average user rating, book title, and the total number of reviews. The viz can be viewed [here](https://public.tableau.com/views/Portfolio_AmazonBooks_20092019/Top15_Author_Cloud?:language=en-US&:display_count=n&:origin=viz_share_link).
+
 ## Datasets Used:
 - [Goodreads-books by Soumik](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
 - [Amazon Top 50 Bestselling Books 2009-2019 By Sooter Saalu](https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019).
