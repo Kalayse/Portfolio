@@ -51,7 +51,9 @@ When adding the cost to the dataframe, the following issues were encountered: un
 -Explore potential relationship between Amazon review count, Goodreads' review count, and genre for the combined dataset.
 
 ## 13-Sept-22
-Visualized the dataframe from the Inner Joins on Goodreads' and Amazon dataset. The dataset is a subset of all the Amazon Best Sellers from 2009-2019 (referred to as Amazon2009_2019Books in RStudio). I was able to manually add all genres and current cost of the 22 distinct books. Once I ensured the data was clean, I imported that dataset into RStudio to visualize the data with ggplot2. Using ggplot2, I was able to visualize the attributes Rating, Sample Counts, and Genres into a bar graph. I then added labels to make the [viz](https://e6521897e0d44ddba8de83caa978a2bf.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2FDataframe+Fun%2FBookish+Portfolio%2FBar_AZGR.png) more accessible.
+Visualized the dataframe from the Inner Joins on Goodreads' and Amazon dataset. The dataset is a subset of all the Amazon Best Sellers from 2009-2019 (referred to as Amazon2009_2019Books in RStudio). I was able to manually add all genres and current cost of the 22 distinct books. Once I ensured the data was clean, I imported that dataset into RStudio to visualize the data with ggplot2. Using ggplot2, I was able to visualize the attributes Rating, Sample Counts, and Genres into a bar graph. Once I added labels, the visual became more accessible.
+
+![image](https://user-images.githubusercontent.com/97118025/192117687-d0197f4f-2388-452f-8b56-9db3c4131aa4.png)
 
 I decided to explore the complete Amazon2009_2019Books to create more comprehensive visualizations that include more data. I will be using geom_smooth and geom_point along with mapping aesthetics.
 
