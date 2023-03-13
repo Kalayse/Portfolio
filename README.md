@@ -7,7 +7,7 @@ Previously, I have worked in the data entry and the management scope of the data
 For the long term health of my career, I am pivoting into the data analytics community. This portfolio seeks to compile the skills and knowledge I have learned while  taking certifications for data analytics including R Programming, SQL, and data visualizations through various modalities. 
 
 ## Current Short Term Goal:
-To take the Oracle MySQL 8.0 Database Administrator exam by the end of April 2022.
+To take the [Oracle MySQL 8.0 Database Administrator](https://education.oracle.com/mysql-80-database-administrator-also-available-in-chs-for-taiwan/pexam_1Z0-908) exam by the end of April 2022.
 
 ## Successes:
 Over the last year, I have completed Google's Data Analytics Certification on Coursera, utilitized Version Control through Git and RStudio, manipulated raw data and worked with packages in R (including ggplot and many aspects of tidyverse), generated and maintained various Google Sheets for personal logging (such as videogame economy and maximizing my ingame currency), and continued to make my way through Learning SQL by Alan Beaulieu.
